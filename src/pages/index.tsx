@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Acessibilidade no React</title>
+        <title>Desenvolvendo uma web acessível | Rocketseat Blog</title>
       </Head>
 
       <header className={styles.header}>
@@ -42,12 +42,12 @@ export default function Home() {
       <main>
         <article className={styles.content}>
           <header>
-            <h2>Desenvolvendo uma web acessível</h2>
+            <h1>Desenvolvendo uma web acessível</h1>
 
-            <h4>
+            <h2>
               Protocolos e diretrizes orientam o desenvolvimento de tecnologias
               acessíveis, mas é preciso olhar além de tudo isso.
-            </h4>
+            </h2>
           </header>
 
           <p>
