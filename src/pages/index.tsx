@@ -13,10 +13,14 @@ export default function Home() {
       </Head>
 
       <header className={styles.header}>
-        <Image src={RocketseatBlogLogo} width={286 / 2} alt="" />
+        <Image
+          src={RocketseatBlogLogo}
+          width={286 / 2}
+          alt="Blog da Rocketseat"
+        />
 
         <nav className={styles.nav}>
-          <a href="https://github.com/caiovinicius7">
+          <a href="https://github.com/caiovinicius7" aria-label="Github">
             <svg
               stroke="currentColor"
               fill="currentColor"
