@@ -73,3 +73,54 @@
   border-radius: 5px;
   color: #333;
 }
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+
+  position: fixed;
+  inset: 0;
+}
+
+.closeModalButton {
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 16px;
+
+  border-radius: 5px;
+  background: #8257e5;
+  color: #ffffff;
+
+  font-size: 1.125rem;
+  font-weight: 700;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.closeModalButton:hover {
+  filter: brightness(0.9);
+}
+
+@media (max-width: 860px) {
+  .modal {
+    padding: 80px;
+  }
+}
+
+@media (max-width: 680px) {
+  .modal {
+    padding: 60px;
+  }
+}
+
+@media (max-width: 680px) {
+  .modal {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 460px) {
+  .modal {
+    padding: 20px;
+  }
+}
